@@ -1,0 +1,234 @@
+:root {
+	--rojo: #5d1b1d;
+	--fondo: #9e3b42;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--fondo);
+	font-family: ' Open Sans', sans-serif;
+}
+
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	padding: 30px 0;
+}
+
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+header .logotipo {
+	font-family: 'Roboto Slab', serif;
+	font-weight: normal;
+	color: rgb(240, 238, 238);
+	font-size: 27px;
+}
+
+header nav a {
+	color: rgb(238, 226, 226);
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo {
+	color: rgb(192, 183, 183);
+}
+.cbtis h2{
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+/* ---- ----- ----- Pagina Principal ----- ----- ----- */
+.pagina-principal {
+	font-size: 10.2px;
+	min-height: 45.01em;
+	color: #fff;
+	background: linear-gradient(rgba(3, 0, 0, 0.5) 0%, rgba(57, 7, 7, 0.5) 100%), url(../img/10.jpg) no-repeat center/cover;
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+background-attachment: fixed;
+	}
+
+.pagina-principal h2{
+	font-family: 'Open Sans',sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+.pagina-principal h2{
+	font-family: 'Open Sans',sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+.pagina-principal a{
+	text-decoration: none;
+    color: rgb(57, 24, 24);
+    padding-left: 2rem;
+    padding-right: 2rem;
+	text-decoration: nome;
+    color:rgb(193, 200, 204);
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: rgb(127, 35, 35);
+    padding: 1rem 2rem;
+    display: inline-block;
+    align-self: center;
+}
+
+
+.pagina-principal .contenedor {
+	margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pagina-principal .titulo {
+	font-family: 'Opens Sans',sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+
+.pagina-principal .descripcion {
+	font-family: 'montserrat',sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+
+
+
+.pagina-principal .boton:hover {
+	background: #fff;
+	color: #000;
+}
+
+
+
+.pagina-principal .boton i {
+	margin-right: 1.25em;
+}
+
+/* ---- ----- ----- Contenedor Titulo y Controles ----- ----- ----- */
+.contenedor-titulo-controles {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+}
+
+.contenedor-titulo-controles h3 {
+	color: #fff;
+	font-size: 30px;
+}
+
+.contenedor-titulo-controles .indicadores button {
+	background: #fff;
+	height: 3px;
+	width: 10px;
+	cursor: pointer;
+	border: none;
+	margin-right: 2px;
+}
+
+.contenedor-titulo-controles .indicadores button:hover,
+.contenedor-titulo-controles .indicadores button.activo {
+	background: red;
+}
+
+
+
+.pagina-recomender {
+	margin-bottom: 70px;
+}
+
+.pagina-recomender .contenedor-principal {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+
+/* ---- ----- ----- Carousel ----- ----- ----- */
+.pagina-recomender .contenedor-carousel {
+	width: 100%;
+	padding: 20px 0;
+	overflow: hidden;
+	scroll-behavior: smooth;
+}
+
+.pagina-recomender .contenedor-carousel .carousel {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.pagina-recomender  .contenedor-carousel .carousel .pagina {
+	min-width: 20%;
+	transition: .3s ease all;
+	box-shadow: 5px 5px 10px rgba(0,0,0, .3);
+}
+
+
+.pagina-recomender 
+	.contenedor-carousel .carousel .pagina.hover {
+	transform: scale(1.2);
+	transform-origin: center;
+}
+
+.pagina-recomender .contenedor-carousel .carousel .pagina img {
+	width: 90%;
+	vertical-align: top;
+}
+
+.boton{
+	min-width: 400px;
+	
+}
+.boton a{
+	text-decoration: none;
+	font-size: 30px;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	color: #fff;
+	border-radius: 40px;
+	font-family: 'Open Sans'sans-serif;
+}
+
+
+
+
+
+.container figure img:hover{
+	transform: scale(1.2);
+	cursor:pointer;
+}
+.figure img:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
+
+
